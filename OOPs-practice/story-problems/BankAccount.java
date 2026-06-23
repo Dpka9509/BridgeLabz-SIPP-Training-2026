@@ -4,7 +4,6 @@ public class BankAccount {
     private String holderName;
     private double balance;
 
-    // Static field to track total accounts
     private static int totalAccounts = 0;
 
     public BankAccount(String accountNumber,

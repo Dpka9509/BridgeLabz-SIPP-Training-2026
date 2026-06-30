@@ -1,7 +1,7 @@
 package gcr-codebase.polymorphisim;
 
 // Parent class
-class 77 {
+class Vehicle {
 
     void fuelCost(int km) {
         System.out.println("Fuel Cost");

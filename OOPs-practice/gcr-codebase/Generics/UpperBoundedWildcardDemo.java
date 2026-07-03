@@ -16,13 +16,10 @@ class Dog extends Animal {
 
 public class UpperBoundedWildcardDemo {
 
-    // Read-only access using ? extends Animal
     public static void printAnimals(List<? extends Animal> animals) {
         for (Animal animal : animals) {
             animal.sound();
         }
-
-        // animals.add(new Dog()); // Compile-time Error
     }
 
     public static void main(String[] args) {
@@ -30,7 +27,6 @@ public class UpperBoundedWildcardDemo {
         List<Dog> dogs = new ArrayList<>();
         dogs.add(new Dog());
         dogs.add(new Dog());
-
         printAnimals(dogs);
     }
 }

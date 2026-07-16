@@ -1,4 +1,4 @@
-TotalDeathsByContinent.sql
+
 SELECT ct.continent_name,
        SUM(cc.total_deaths) AS total_deaths
 FROM covid_cases cc

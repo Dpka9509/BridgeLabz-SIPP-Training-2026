@@ -1,4 +1,4 @@
-HighestInfectionRates.sql
+
 SELECT country_name,
        population,
        confirmed_cases,

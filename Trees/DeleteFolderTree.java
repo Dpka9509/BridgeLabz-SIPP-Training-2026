@@ -27,4 +27,3 @@ public class DeleteFolderTree {
         postorder(root);
     }
 }
-DeleteFolderTree.java
